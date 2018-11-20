@@ -1,9 +1,9 @@
 <script>
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'kb-element-ui/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Popper from 'element-ui/src/utils/vue-popper';
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
+  import Emitter from 'kb-element-ui/src/mixins/emitter';
+  import Popper from 'kb-element-ui/src/utils/vue-popper';
+  import Clickoutside from 'kb-element-ui/src/utils/clickoutside';
 
   const poperMixins = {
     props: {
